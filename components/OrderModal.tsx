@@ -29,13 +29,14 @@ export default function OrderModal({ product, onClose }: OrderModalProps) {
     setIsSubmitting(true);
 
     try {
-      // Submit to Formspree
-      const response = await fetch('https://formspree.io/f/xkkkggjb', {
+      // Submit to Web3Forms
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
+          access_key: 'a2413fe2-017e-42e0-b8ff-264f1c2b51a2',
           'পণ্যের নাম': formData.product_name,
           'আপনার নাম': formData.name,
           'মোবাইল নম্বর': formData.mobile,
