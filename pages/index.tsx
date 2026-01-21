@@ -33,7 +33,7 @@ export default function Home() {
         <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
           <div className="container mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <img src="/shobkichu-logo.svg" alt="সবকিছু" className="h-10" />
+              <img src="/SHOBKICHU-LOGO.svg" alt="সবকিছু" className="h-10" />
             </a>
             
             <nav className="hidden md:flex items-center gap-8">
@@ -296,7 +296,7 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div>
-                <img src="/shobkichu-logo.svg" alt="সবকিছু" className="h-8 mb-2" />
+                <img src="/SHOBKICHU-LOGO.svg" alt="সবকিছু" className="h-8 mb-2" />
                 <p className="text-gray-600 text-sm mt-1">
                   রান্না এখন আনন্দময়
                 </p>
