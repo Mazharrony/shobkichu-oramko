@@ -46,16 +46,12 @@ export default function OrderModal({ product, onClose }: OrderModalProps) {
 
       if (response.ok) {
         setIsSuccess(true);
-        setTimeout(() => {
-          onClose();
-          setIsSuccess(false);
-          setFormData({
-            product_name: product?.name || '',
-            name: '',
-            mobile: '',
-            address: '',
-          });
-        }, 2000);
+        setFormData({
+          product_name: product?.name || '',
+          name: '',
+          mobile: '',
+          address: '',
+        });
       }
     } catch (error) {
       console.error('Error submitting form:', error);
