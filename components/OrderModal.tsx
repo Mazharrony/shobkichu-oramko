@@ -80,7 +80,7 @@ export default function OrderModal({ product, onClose }: OrderModalProps) {
             আপনার অর্ডার গ্রহণ করা হয়েছে। আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।
           </p>
           <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl p-4 border border-orange-100">
-            <p className="text-sm text-gray-700">ধন্যবাদ Oramko বেছে নেওয়ার জন্য! 🎉</p>
+            <p className="text-sm text-gray-700">ধন্যবাদ সবকিছু বেছে নেওয়ার জন্য! 🎉</p>
           </div>
         </div>
       </div>

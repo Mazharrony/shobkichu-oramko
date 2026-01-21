@@ -21,8 +21,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Oramko - প্রিমিয়াম ইলেকট্রিক কুকিং পট</title>
-        <meta name="description" content="রান্না করুন আনন্দে ও স্টাইলে - Oramko-এর এলিগ্যান্ট মাল্টি-ফাংশনাল কুকিং পট" />
+        <title>সবকিছু - প্রিমিয়াম ইলেকট্রিক কুকিং পট</title>
+        <meta name="description" content="রান্না করুন আনন্দে ও স্টাইলে - সবকিছু-এর এলিগ্যান্ট মাল্টি-ফাংশনাল কুকিং পট" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -33,9 +33,7 @@ export default function Home() {
         <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
           <div className="container mx-auto px-6 py-4 flex items-center justify-between">
             <a href="/" className="flex items-center gap-2">
-              <span className="text-2xl font-semibold text-gray-900 tracking-tight" style={{ fontFamily: "'Alinur Showpnopuri', serif" }}>
-                Oramko
-              </span>
+              <img src="/shobkichu-logo.svg" alt="সবকিছু" className="h-10" />
             </a>
             
             <nav className="hidden md:flex items-center gap-8">
@@ -76,7 +74,7 @@ export default function Home() {
                   <span className="block text-orange-300">আনন্দে ও স্টাইলে</span>
                 </h1>
                 <p className="text-lg md:text-xl text-white/80 max-w-lg leading-relaxed">
-                  Oramko-এর এলিগ্যান্ট মাল্টি-ফাংশনাল কুকিং পট আবিষ্কার করুন। 
+                  সবকিছু-এর এলিগ্যান্ট মাল্টি-ফাংশনাল কুকিং পট আবিষ্কার করুন। 
                   প্রতিটি খাবারের জন্য পারফেক্ট, আধুনিক রান্নাঘরের জন্য ডিজাইন করা।
                 </p>
               </div>
@@ -161,7 +159,7 @@ export default function Home() {
               <div className="space-y-10 order-1 lg:order-2">
                 <div>
                   <span className="inline-block px-4 py-2 bg-orange-100 text-orange-600 rounded-full text-sm font-medium mb-4">
-                    কেন Oramko
+                    কেন সবকিছু
                   </span>
                   <h2 className="text-4xl md:text-5xl font-semibold text-gray-900 mb-4" style={{ fontFamily: "'Alinur Showpnopuri', serif" }}>
                     রান্না এখন
@@ -205,7 +203,7 @@ export default function Home() {
                 আপনার রান্নাঘরের নতুন সঙ্গী
               </h2>
               <p className="text-gray-600 text-lg">
-                দেখুন কিভাবে Oramko প্রতিদিনের রান্নাকে বিশেষ করে তোলে
+                দেখুন কিভাবে সবকিছু প্রতিদিনের রান্নাকে বিশেষ করে তোলে
               </p>
             </div>
             
@@ -279,8 +277,7 @@ export default function Home() {
                 আপনার রান্নাঘর বদলে দিতে প্রস্তুত?
               </h2>
               <p className="text-white/70 text-lg md:text-xl max-w-xl mx-auto">
-                হাজার হাজার সন্তুষ্ট গ্রাহকদের সাথে যোগ দিন যারা Oramko দিয়ে সুস্বাদু খাবার রান্না করছেন। 
-                ৳২,০০০ এর উপরে অর্ডারে ফ্রি ডেলিভারি।
+                হাজার হাজার সন্তুষ্ট গ্রাহকদের পছন্দ Oramko। সুস্বাদু খাবার রান্না করুন আর অর্ডার করলেই উপভোগ করুন ফ্রি ডেলিভারি!
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <button className="bg-gradient-to-r from-orange-600 to-amber-600 text-white px-8 py-4 rounded-xl text-lg font-medium hover:from-orange-700 hover:to-amber-700 transition-all shadow-lg">
@@ -299,9 +296,7 @@ export default function Home() {
           <div className="container mx-auto px-6">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div>
-                <span className="text-2xl font-semibold text-gray-900" style={{ fontFamily: "'Alinur Showpnopuri', serif" }}>
-                  Oramko
-                </span>
+                <img src="/shobkichu-logo.svg" alt="সবকিছু" className="h-8 mb-2" />
                 <p className="text-gray-600 text-sm mt-1">
                   রান্না এখন আনন্দময়
                 </p>
@@ -315,7 +310,7 @@ export default function Home() {
               </div>
               
               <p className="text-gray-600 text-sm">
-                © ২০২৬ Oramko। সর্বস্বত্ব সংরক্ষিত।
+                ©সবকিছু ২০২৬ সর্বস্বত্ব সংরক্ষিত।
               </p>
             </div>
           </div>

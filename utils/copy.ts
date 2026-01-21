@@ -1,12 +1,12 @@
 // Bangla copy and formatting utilities
 export const copy = {
   // Navigation & Header
-  brand: "শোবকিচু",
+  brand: "সবকিছু",
   tagline: "প্রিমিয়াম ইলেকট্রিক কুকার কালেকশন",
   subtagline: "আধুনিক প্রযুক্তি এবং ঐতিহ্যবাহী রান্নার নিখুঁত সমন্বয়",
 
   // Hero Section
-  heroTitle: "শোবকিচু",
+  heroTitle: "সবকিছু",
   heroSubtitle: "প্রিমিয়াম ইলেকট্রিক কুকার কালেকশন",
   heroDescription: "আধুনিক প্রযুক্তি এবং ঐতিহ্যবাহী রান্নার নিখুঁত সমন্বয়",
 
@@ -73,10 +73,10 @@ export const copy = {
   // Success Message
   orderSuccess: "অর্ডার সফল!",
   orderSuccessMessage: "আপনার অর্ডার গ্রহণ করা হয়েছে। আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।",
-  thankYou: "ধন্যবাদ শোবকিচু বেছে নেওয়ার জন্য!",
+  thankYou: "ধন্যবাদ সবকিছু বেছে নেওয়ার জন্য!",
 
   // Footer
-  footerBrand: "শোবকিচু",
+  footerBrand: "সবকিছু",
   footerDescription: "বাংলাদেশের বিশ্বস্ত ই-কমার্স প্ল্যাটফর্ম",
   footerLinks: {
     about: "আমাদের সম্পর্কে",

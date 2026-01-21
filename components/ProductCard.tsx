@@ -17,7 +17,20 @@ export default function ProductCard({ product, onOrder }: ProductCardProps) {
           alt={product.name}
           className="h-full w-full object-cover transform group-hover:scale-110 transition-transform duration-700"
         />
-        {/* Badge */}
+        
+        {/* Free Gift Badge - Top Left */}
+        <div className="absolute top-4 left-4 z-20">
+          <div className="flex flex-col items-center gap-1">
+            <img 
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 200'%3E%3Cellipse cx='50' cy='40' rx='35' ry='45' fill='%23d4a574'/%3E%3Crect x='40' y='75' width='20' height='120' rx='8' fill='%23d4a574'/%3E%3C/svg%3E"
+              alt="ফ্রি উপহার"
+              className="w-12 h-12 drop-shadow-lg hover:scale-110 transition-transform duration-300"
+            />
+            <p className="text-xs font-bold text-orange-600 text-center bg-white/95 px-3 py-1 rounded-full shadow-md">ফ্রি</p>
+          </div>
+        </div>
+        
+        {/* Badge - Top Right */}
         <div className="absolute top-4 right-4 z-20">
           <div className="bg-gradient-to-r from-orange-600 to-amber-600 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
             {copy.bestSeller}
