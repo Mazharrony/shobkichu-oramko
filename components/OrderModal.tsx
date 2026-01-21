@@ -80,8 +80,12 @@ export default function OrderModal({ product, onClose }: OrderModalProps) {
           <p className="text-gray-600 mb-6 text-lg">
             আপনার অর্ডার গ্রহণ করা হয়েছে। আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।
           </p>
-          <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl p-4 border border-orange-100">
+          <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl p-4 border border-orange-100 mb-4">
             <p className="text-sm text-gray-700">ধন্যবাদ সবকিছু বেছে নেওয়ার জন্য! 🎉</p>
+          </div>
+          <div className="bg-blue-50 rounded-2xl p-4 border border-blue-200">
+            <p className="text-sm text-gray-700 mb-2">আরও তথ্যের জন্য যোগাযোগ করুন:</p>
+            <a href="tel:01945383916" className="text-lg font-semibold text-blue-600 hover:text-blue-700 transition-colors">📞 ০১৯৪৫৩৮৩৯১৬</a>
           </div>
         </div>
       </div>

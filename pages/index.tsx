@@ -300,6 +300,9 @@ export default function Home() {
                 <p className="text-gray-600 text-sm mt-1">
                   রান্না এখন আনন্দময়
                 </p>
+                <a href="tel:01945383916" className="text-orange-600 font-semibold text-sm mt-2 inline-block hover:text-orange-700 transition-colors">
+                  📞 ০১৯৪৫৩৮৩৯১৬
+                </a>
               </div>
               
               <div className="flex items-center gap-6 text-sm text-gray-600">
