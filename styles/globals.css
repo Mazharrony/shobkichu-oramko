@@ -39,6 +39,11 @@ body {
   overflow-x: hidden;
 }
 
+/* Headings Font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alinur Showpnopuri', serif;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
